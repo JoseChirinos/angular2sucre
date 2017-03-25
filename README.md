@@ -1,31 +1,52 @@
-# MyApp
+# Primeros pasos en angular 2
+<p align="center">
+        <img width="250"src="https://drive.google.com/open?id=0B0Jr7aiKX5ozMjN4bWpZX3Jpa28">
+</p>
+Esto es el código que se trabajo en el workshop
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
+# Iniciando el proyecto
+  1. Tener instalado NodeJS 
+  https://nodejs.org/es/
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+  2. Instalar el ( Client Line Interface ) angular-cli de forma global:
+  ```sh
+    npm install -g angular-cli
+  ```
+  3. Ir al directorio donde vas a trabajar
+  ```sh
+    cd misproyectos
+  ```
+  4.  Clonar el proyecto o si quieres descargarlo <a href="https://github.com/JoseChirinos/angular2sucre/archive/master.zip">aqui</a>: 
+  ```sh
+    git clone https://github.com/JoseChirinos/angular2sucre.git
+  ```
+  5. Para que funcione deberas entrar a la carpeta donde clonaste o descomprimiste y luego instalar todas las dependencias:
+  ```sh
+    cd my-app
+    npm install
+  ```
+  6. Para conectarte a tu servicio firebase deberan copiar sus configuraciones en: 
+    ```sh
+        const firebaseConfig = {
+            apiKey: "TU_API_KEY",
+            authDomain: "TU_DOMINIO_FIREBASE.firebaseapp.com",
+            databaseURL: "TU_DOMINIO_FIREBASE.firebaseio.com",
+            storageBucket: "TU_DOMINIO_FIREBASE.appspot.com",
+            messagingSenderId: "TU_NUMERO_LARGO"
+        };
+    ```
+  7. Habilitar en firebase tu servicio de autenticación
+  <p align="center">
+        <img width="250"src="https://drive.google.com/open?id=0B0Jr7aiKX5ozenZrR2x1eUJpUlk">
+  </p>
 
-## Code scaffolding
+  8. Para iniciar el proyecto ejecutar:
+  ```sh
+    ng serve
+  ```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+  9. Para generar el proyecto final y dejarlo listo para producción
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Deploying to GitHub Pages
-
-Run `ng github-pages:deploy` to deploy to GitHub Pages.
-
-## Further help
-
-To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+ ```sh
+    ng build --aot
+  ```

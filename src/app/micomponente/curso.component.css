@@ -1,0 +1,68 @@
+main{
+    padding: 0px 0px 50px 0px;
+}
+h2{
+    color: #2d2d2d;
+    font-size: 25px;
+    font-weight: bold;
+}
+section{
+    background: #fff;
+    border: 1px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-radius: 3px;
+    margin: 30px 25px 0px 25px;
+    padding: 25px;
+}
+section input[type=text]{
+    border: 1px solid #cbc9c9;
+    padding: 5px;
+}
+section a{
+    display: block;
+    padding: 0px 0px 30px 0px;
+}
+button{
+    display: block;
+    padding: 5px;
+    min-width: 250px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+}
+.yes{
+    background: #e9724e;
+    background: -moz-linear-gradient(left,#e9724e 0,#e24f69 100%);
+    background: -webkit-gradient(linear,left left,left bottom,color-stop(0,#e9724e),color-stop(100%,#e24f69));
+    background: -webkit-linear-gradient(left,#e9724e 0,#e24f69 100%);
+    background: -o-linear-gradient(left,#e9724e 0,#e24f69 100%);
+    background: -ms-linear-gradient(left,#e9724e 0,#e24f69 100%);
+    background: linear-gradient(to left,#e9724e 0,#e24f69 100%);
+    color: #e9eaeb;
+}
+.not{
+    background: #e9eaeb;
+    background: -moz-linear-gradient(left,#e9eaeb 0,#e9eaeb 100%);
+    background: -webkit-gradient(linear,left left,left bottom,color-stop(0,#e9eaeb),color-stop(100%,#e9eaeb));
+    background: -webkit-linear-gradient(left,#e9eaeb 0,#e9eaeb 100%);
+    background: -o-linear-gradient(left,#e9eaeb 0,#e9eaeb 100%);
+    background: -ms-linear-gradient(left,#e9eaeb 0,#e9eaeb 100%);
+    background: linear-gradient(to left,#e9eaeb 0,#e9eaeb 100%);
+    color: #e24f69;
+
+}
+.google{
+    display: block;
+    padding: 5px;
+    min-width: 250px;
+    max-height: 50px;
+    margin: 15px auto 0;
+    border-radius: 5px;
+    border: 0;
+    background: #dc4e41;
+    color: #fff;
+    outline: 0;
+}
+.google span{
+    vertical-align: super;
+}

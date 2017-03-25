@@ -1,6 +1,6 @@
 # Primeros pasos en angular 2
 <p align="center">
-        <img width="250" src="https://drive.google.com/open?id=0B0Jr7aiKX5ozMjN4bWpZX3Jpa28">
+        <img width="250" src="https://lh5.googleusercontent.com/cPnWesoAzQD5qBT_EdDewW3GAU9CsnDYOjOwTdcDawuWjtDwpdki5wVR4n1H4ximlAlAdlwnsCT_7zA=w1920-h857-rw">
 </p>
 Esto es el código que se trabajo en el workshop
 
@@ -37,7 +37,7 @@ Esto es el código que se trabajo en el workshop
     ```
   7. Habilitar en firebase tu servicio de autenticación
   <p align="center">
-        <img width="250" src="https://drive.google.com/open?id=0B0Jr7aiKX5ozenZrR2x1eUJpUlk">
+        <img width="250" src="https://lh3.googleusercontent.com/LBfiCuC-lEC3xynil0eaKuL_MBvPiwJx-E4T6cXM58AKEOiNDm-rdYfBQSCLJt-0GLbIWmdY_AZdn7U=w1920-h918-rw">
   </p>
 
   8. Para iniciar el proyecto ejecutar:

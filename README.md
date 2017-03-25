@@ -8,7 +8,7 @@ Esto es el código que se trabajo en el workshop
   1. Tener instalado NodeJS 
   [https://nodejs.org/es/](https://nodejs.org/es/)
 
-  2. Instalar el ( Client Line Interface ) angular-cli de forma global:
+  2. Instalar el ( Client Line Interface ) `angular-cli` de forma global:
   ```sh
     npm install -g angular-cli
   ```
@@ -25,17 +25,17 @@ Esto es el código que se trabajo en el workshop
     cd my-app
     npm install
   ```
-  6. Para conectarte a tu servicio firebase deberan copiar sus configuraciones en `app.module.ts`: 
-    ```json
-        const firebaseConfig = {
+  6. Para conectarte a tu servicio firebase deberan copiar sus configuraciones en `app.module.ts`:
+  
+  ```javascript
+const firebaseConfig = {
           apiKey: "TU_API_KEY",
           authDomain: "TU_DOMINIO_FIREBASE.firebaseapp.com",
           databaseURL: "TU_DOMINIO_FIREBASE.firebaseio.com",
           storageBucket: "TU_DOMINIO_FIREBASE.appspot.com",
           messagingSenderId: "TU_NUMERO_LARGO"
-        }
-    ```
-        
+        };
+```
     
   7. Habilitar en firebase tu servicio de autenticación
   <p align="center">

@@ -26,7 +26,7 @@ Esto es el código que se trabajo en el workshop
     npm install
   ```
   6. Para conectarte a tu servicio firebase deberan copiar sus configuraciones en: 
-    ```sh
+    ```javascript
         const firebaseConfig = {
             apiKey: "TU_API_KEY",
             authDomain: "TU_DOMINIO_FIREBASE.firebaseapp.com",
